@@ -1,0 +1,620 @@
+/*   RESET   */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'fleshandblood Medium';
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: #777;
+}
+
+
+/* FONTE E IMAGEM DE FUNDO*/
+/* OBS: NA FONTE USADA, OS ACENTOS AGUDOS NÃO SÃO EXIBIDOS NA LETRA "A" */
+#body1 {
+    font-style: normal;
+    font-weight: normal;
+    background-image: url(../imagens/concept/yhar7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#body2 {
+    background-image: url(../imagens/concept/concept13.jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#body3 {
+    background-image: url(../imagens/concept/dream.jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#body4 {
+    background-image: url(../imagens/concept/hunter3.jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#body5 {
+    background-image: url(../imagens/concept/conccept15.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'fleshandblood Medium';
+    src: local('fleshandblood Medium'), url('../fonte/Fleshandblood-MVA5x.woff') format('woff');
+}
+
+
+/* TÍTULO */
+#title {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-right: 50px;
+    transition: 2s;
+    cursor: pointer;
+    font-family: 'fleshandblood Medium';
+}
+
+#title:hover {
+    color: red;
+    font-size: 60px;
+}
+
+
+/* CABEÇALHO */
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 55px;
+    background-image: url(../imagens/concept/yhar5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo a {
+    background-image: url(../imagens/iconmenu.png);
+    width: 50px;
+    height: 50px;
+    float: left;
+    font-size: 0;
+}
+
+/*   MENU   */
+.menu {
+    width: 100%;
+    float: left;
+    background-color: rgb(70, 19, 19);
+    padding: 0 0 10px 0;
+    font-size: 16.7px;
+    border: 2px solid rgb(36, 3, 3);
+    border-width: 1.5px;
+}
+
+.menu li {
+    float: left;
+    margin: 12px 0 0 130px;
+}
+
+.menu li a {
+    color: white;
+    margin-right: 35px;
+    margin-top: 20px;
+    transition: 0.5s;
+    font-family: 'fleshandblood Medium';
+}
+
+.menu li a:hover {
+    color: red;
+}
+
+
+/* CONTEÚDO */
+.content {
+    background-color: rgba(0, 0, 0, 0.562);
+    float: left;
+    margin: 25px;
+    padding: 35px;
+    border-radius: 9px;
+    max-width: max-content;
+}
+
+/* PÁGINA INÍCIO */
+.principal h2 {
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.principal p {
+    color: white;
+    width: 100%;
+    margin: 7px 0 0 50px;
+    padding-right: 25px;
+    font-size: 23px;
+}
+
+/* PÁGINA CRIADOR */
+.principal2 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.principal2 p {
+    color: white;
+    width: 100%;
+    margin: 7px 0 0 50px;
+    padding-right: 25px;
+    font-size: 23px;
+}
+
+/* PÁGINA HISTÓRIA */
+.principal3 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.principal3 p {
+    color: white;
+    width: 100%;
+    margin: 7px 0 0 50px;
+    padding-right: 25px;
+    font-size: 23px;
+}
+
+.subtitle {
+    color: rgb(255, 0, 0);
+    font-size: 34px;
+    text-align: left;
+    margin: 0 0 20px 52.5px;
+}
+
+.subtitle2 {
+    color: rgb(255, 0, 0);
+    font-size: 28px;
+    text-align: left;
+    margin: 0 0 20px 52.5px;
+}
+
+
+/* PÁGINA PERSONAGENS */
+.principal4 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.principal4 p {
+    color: white;
+    width: 100%;
+    margin: 7px 0 0 50px;
+    padding-right: 25px;
+    font-size: 23px;
+}
+
+/* PÁGINA GAMEPLAY */
+.principal5 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.principal5 p {
+    color: white;
+    width: 100%;
+    margin: 7px 0 0 50px;
+    padding-right: 25px;
+    font-size: 23px;
+}
+
+.content iframe {
+    width: 560px;
+    height: 315px;
+    margin: 25px 0 25px 280px;
+}
+
+
+/* SOCIAL ICONS */
+.social-icons a {
+    float: right;
+    margin: 2px 20px 0 0;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.social-icons a:hover {
+    color: red;
+}
+
+
+/*   RODAPÉ   */
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: #850000;
+    padding: 10px 8%;
+}
+
+.rodape p {
+    color: #fff;
+}
+
+
+/* IMAGENS */
+#img1 {
+    float: right;
+    width: 22%;
+    height: 750px;
+    width: 270px;
+    margin-left: 12px;
+}
+
+#img2 {
+    border-radius: 10px;
+    margin: 35px 0 20px 80px;
+    height: 225px;
+    width: 270px;
+    transition: 1s;
+}
+
+#img2:hover {
+    height: 245px;
+    width: 285px
+}
+
+.principal2 img {
+    width: 560px;
+    height: 315px;
+    margin: 25px 0 25px 280px;
+    border-radius: 7px;
+    transition: 2s;
+}
+
+.principal2 img:hover {
+    width: 575px;
+    height: 330px;
+}
+
+#img3 {
+    width: 535px;
+    height: 300px;
+    float: right;
+    width: 50%;
+    margin: 30px 0 12px 12px;
+    border-radius: 90px;
+}
+
+#img4 {
+    border-radius: 10px;
+    margin: 35px 0 30px 80px;
+    height: 300px;
+    width: 400px;
+    transition: 2s;
+}
+
+.principal3 img {
+    width: 560px;
+    height: 315px;
+    margin: 25px 0 25px 280px;
+    border-radius: 7px;
+    transition: 2s;
+}
+
+#img4:hover {
+    width: 575px;
+    height: 330px;
+}
+
+#img5 {
+    border-radius: 10px;
+    margin: 35px 0 20px 90px;
+    height: 300px;
+    width: 450px;
+    transition: 2s;
+}
+
+#img5:hover {
+    width: 500px;
+    height: 330px;
+}
+
+#img6 {
+    float: right;
+    border-radius: 10px;
+    margin: 35px 90px 2px 2px;
+    height: 590px;
+    width: 400px;
+}
+
+#img7 {
+    height: 450px;
+    width: 650px;
+    margin: 0 260px 0 260px;
+    float: left;
+}
+
+#gif {
+    margin: 40px 260px 0 260px;
+    float: left;
+    border-radius: 10px;
+    height: 380px;
+    width: 650px;
+}
+
+#gif2 {
+    margin: 30px 260px 40px 260px;
+    float: left;
+    border-radius: 10px;
+    height: 380px;
+    width: 650px;
+}
+
+#img8 {
+    border-radius: 10px;
+    margin: 50px 0 30px 90px;
+    height: 300px;
+    width: 450px;
+    transition: 2s;
+}
+
+#img8:hover {
+    width: 500px;
+    height: 330px;
+}
+
+
+/* MENSAGEM */
+.mensagem {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+}
+
+.mensagem h3 {
+    font-size: 1.8em;
+    color: white;
+}
+
+.mensagem p {
+    font-size: 25px;
+    color: white;
+}
+
+.mensagem form {
+    width: 100%;
+    float: left;
+    margin-top: 4px;
+}
+
+.mensagem input {
+    width: 40%;
+    margin-right: 1%;
+    padding: 30px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: initial;
+    color: #fff
+}
+
+.mensagem button {
+    width: 17%;
+    background-color: #fff;
+    padding: 30px 10px;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 800px) {
+    #title {
+        margin: 0 0 0 20px;
+    }
+
+    .menu li a {
+        font-size: 20px;
+    }
+
+    .principal {
+        max-width: 400px;
+    }
+
+    .principal2 {
+        max-width: 400px;
+    }
+
+    .principal3 {
+        max-width: 400px;
+    }
+
+    .principal h2 {
+        float: left;
+
+    }
+
+    #img1 {
+        width: 100px;
+        height: 100px;
+        margin-right: 100px;
+    }
+
+    #img2 {
+        float: left;
+        height: 120px;
+        width: 140px;
+        margin: 20px 0 0 20px;
+    }
+
+    .principal p {
+        float: left;
+        margin: 20px 0 20px 0;
+    }
+
+    .principal iframe {
+        height: 120px;
+        width: 140px;
+        margin: 50px;
+        float: left;
+    }
+
+    .principal2 img {
+        margin: 0 50px 0 0;
+    }
+
+    .principal2 p {
+        float: left;
+        margin: 20px 50px 20px 0;
+    }
+
+    .principal3 h3 {
+        margin: 0 20px 0 20px;
+        float: left;
+    }
+
+    .principal3 p {
+        margin: 0 20px 0 20px;
+        float: left;
+    }
+
+    #img3 {
+        margin: 20px 0 20px 0;
+        width: 300px;
+        float: left;
+    }
+
+    #img4 {
+        margin: 20px 0 20px 0;
+        float: left;
+    }
+
+    #img5 {
+        margin: 20px 0 20px 0;
+        height: 150px;
+        float: left;
+    }
+
+    .mensagem button {
+        font-size: 10px;
+        width: 30px;
+
+    }
+    
+    
+    #body img{
+        float:left;
+        margin: 0;
+    }
+    #body2 img{
+        float:left;
+        margin: 0;
+    }
+    #body4 img{
+        float:left;
+        margin: 0;
+    }
+
+    .principal4 h2 {
+        float: left;
+
+        margin: 0 0 0 0;
+    }
+
+    .principal4 p {
+        float: left;
+        margin: 20px 0 20px 0;
+
+        margin: 0 0 0 0;
+    }
+
+    #img6 {
+        float: left;
+        margin: 0 0 0 0;
+    }
+
+    #img7 {
+        float: left;
+        margin: 0 0 0 0;
+    }
+
+    .subtitle {
+        float: left;
+        font-size: 40px;
+        margin: 50px 0 20px 0;
+    }
+
+
+    #img8 {
+        float: left;
+        margin: 0 0 0 0;
+    }
+
+    #gif {
+        float: left;
+        margin: 0 0 0 0;
+    }
+
+    #body5 h2{
+        float:left;
+        margin: 0;
+    }
+    
+    #body5 h3{
+        float:left;
+        margin: 0;
+    }
+    #body5 h4{
+        float:left;
+        margin: 0;
+    }
+    #body5 p{
+        float:left;
+        margin: 0;
+    }
+    #body5 img{
+        float:left;
+        margin: 0;
+    }
+    #body5{
+        max-width: 400px;
+    }
+    
+}
